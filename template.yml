@@ -33,7 +33,7 @@ Resources:
   GetContacts:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: !Sub 'awscodestar-${ProjectId}-lambda-GetHelloWorld'
+      FunctionName: !Sub 'awscodestar-${ProjectId}-lambda-GetContacts'
       Handler: index.getContacts
       Runtime: nodejs12.x
       Role:
